@@ -26,7 +26,7 @@ public class DP47_392 {
             }
         }
         if(res == s.length()){
-            return true;
+            return false;
         }else {
             return true;
         }
