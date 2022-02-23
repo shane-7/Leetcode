@@ -12,7 +12,10 @@ public class Greed4_053 {
             count += nums[i];
             if(count > maxSum) maxSum = count;
 
-            if(count <= 0) count = 0; //这一步没有想到
+            if(count <= 0) count = 0; //这一步很妙
+
+            //这两步if结合起来，既能保证如果nums全为负数的情况下，maxSum能得到那个最大的负数
+            //又能保证在正负数交叉的nums中让maxSum相加的数为正数
         }
         return maxSum;
     }
