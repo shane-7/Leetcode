@@ -36,10 +36,10 @@ public class BT1_二叉树后序遍历 {
             TreeNode node = deque.pop();  //先弹出中节点
             res.add(node.val);
             if(node.left != null){
-                deque.addLast(node.left); //压入左节点
+                deque.addFirst(node.left); //压入左节点
             }
             if(node.right != null){
-                deque.addLast(node.right); //压入右节点；
+                deque.addFirst(node.right); //压入右节点；
             }
         }
 

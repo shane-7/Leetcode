@@ -26,6 +26,7 @@ public class BT1_二叉树前序遍历 {
         preOrder(root.right,result);
     }
 
+    //深度优先遍历 就是以下迭代遍历！！！
     //迭代法： 前序遍历顺序：中- 左- 右， 入栈顺序：中- 右- 左
     public List<Integer> preorderTraversal(TreeNode root){
         List<Integer> res = new ArrayList<>();
