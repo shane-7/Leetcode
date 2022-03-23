@@ -85,6 +85,7 @@ public class Match20_2039 {
 
         System.out.println(Arrays.deepToString(edges));
         System.out.println("S");
+        System.out.println("L");
     }
 }
 
