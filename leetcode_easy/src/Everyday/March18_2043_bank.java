@@ -4,10 +4,10 @@ package Everyday;
  * @author shkstart
  * @create 2022-03-18 11:32
  */
-public class Match18_2043_bank {
+public class March18_2043_bank {
 
     long[] bank;
-    public Match18_2043_bank(long[] balance) {
+    public March18_2043_bank(long[] balance) {
         bank = balance;
     }
 

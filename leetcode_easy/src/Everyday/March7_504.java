@@ -7,7 +7,7 @@ import java.util.LinkedList;
  * @author shkstart
  * @create 2022-03-07 14:58
  */
-public class Match7_504 {
+public class March7_504 {
     public String convertToBase7(int num){
         Deque<Integer> deque = new LinkedList<>();
         int res = 0;
@@ -28,7 +28,7 @@ public class Match7_504 {
     }
 
     public static void main(String[] args) {
-        Match7_504 test = new Match7_504();
+        March7_504 test = new March7_504();
         int num = -7;
         String res = test.convertToBase7(num);
         System.out.println(res);

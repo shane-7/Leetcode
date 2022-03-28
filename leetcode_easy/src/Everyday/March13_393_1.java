@@ -7,7 +7,7 @@ import java.util.List;
  * @author shkstart
  * @create 2022-03-13 9:04
  */
-public class Match13_393_1 {
+public class March13_393_1 {
     public boolean validUtf8(int[] data) {
         List<String> dataList = new ArrayList<>();
         //将data数组转换为二进制的字符串数组
@@ -49,7 +49,7 @@ public class Match13_393_1 {
     }
 
     public static void main(String[] args) {
-        Match13_393_1 test = new Match13_393_1();
+        March13_393_1 test = new March13_393_1();
         int[] data = {237};
 //        boolean res = test.validUtf8(data);
 //        System.out.println(res);

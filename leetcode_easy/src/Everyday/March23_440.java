@@ -4,7 +4,7 @@ package Everyday;
  * @author shkstart
  * @create 2022-03-23 16:42
  */
-public class Match23_440 {
+public class March23_440 {
     public int findKthNumber(int n, int k) {
         /*
         参考评论区郭郭的视频题解:
@@ -64,7 +64,7 @@ public class Match23_440 {
     }
 
     public static void main(String[] args) {
-        Match23_440 test = new Match23_440();
+        March23_440 test = new March23_440();
         int res = test.findKthNumber(1014, 15);
         System.out.println(res);
     }

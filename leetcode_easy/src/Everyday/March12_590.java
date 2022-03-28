@@ -6,7 +6,7 @@ import java.util.*;
  * @author shkstart
  * @create 2022-03-12 9:20
  */
-public class Match12_590 {
+public class March12_590 {
     //方法1：递归
     // public List<Integer> postorder(Node root) {
     //     List<Integer> result = new ArrayList<>();

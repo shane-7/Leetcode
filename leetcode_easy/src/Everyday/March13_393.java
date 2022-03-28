@@ -1,13 +1,10 @@
 package Everyday;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * @author shkstart
  * @create 2022-03-13 9:04
  */
-public class Match13_393 {
+public class March13_393 {
     public boolean validUtf8(int[] data) {
         int n = data.length;
         for (int i = 0; i < n; ) {
@@ -29,7 +26,7 @@ public class Match13_393 {
     }
 
     public static void main(String[] args) {
-        Match13_393 test = new Match13_393();
+        March13_393 test = new March13_393();
         int[] data = {228,189,160,229,165,189,13,10};
 //        boolean res = test.validUtf8(data);
 //        System.out.println(res);

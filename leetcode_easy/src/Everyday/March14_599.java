@@ -6,7 +6,7 @@ import java.util.*;
  * @author shkstart
  * @create 2022-03-14 13:29
  */
-public class Match14_599 {
+public class March14_599 {
     //自己用的笨方法
 //    public String[] findRestaurant(String[] list1, String[] list2) {
 //        int m = list1.length;
@@ -65,7 +65,7 @@ public class Match14_599 {
 
 
         public static void main(String[] args) {
-        Match14_599 test = new Match14_599();
+        March14_599 test = new March14_599();
         String[] s1 = new String[]{"Shogun","Piatti","Tapioca Express","Burger King","KFC"};
         String[] s2 = new String[]{"Piatti","The Grill at Torrey Pines","Hungry Hunter Steakhouse","Shogun"};
         String[] res = test.findRestaurant(s1, s2);

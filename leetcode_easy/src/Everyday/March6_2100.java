@@ -7,7 +7,7 @@ import java.util.List;
  * @author shkstart
  * @create 2022-03-09 10:57
  */
-public class Match6_2100 {
+public class March6_2100 {
     public List<Integer> goodDaysToRobBank(int[] security, int time) {
         int len = security.length;
         //预处理数组

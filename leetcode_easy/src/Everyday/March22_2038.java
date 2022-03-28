@@ -4,7 +4,7 @@ package Everyday;
  * @author shkstart
  * @create 2022-03-22 9:08
  */
-public class Match22_2038 {
+public class March22_2038 {
     public boolean winnerOfGame(String colors) {
         char[] color_char = colors.toCharArray();
         int a = 0, b = 0;
@@ -25,7 +25,7 @@ public class Match22_2038 {
 
     public static void main(String[] args) {
         String colors = "ABBBBBBBAAA";
-        Match22_2038 test = new Match22_2038();
+        March22_2038 test = new March22_2038();
         boolean res = test.winnerOfGame(colors);
         System.out.println(res);
     }

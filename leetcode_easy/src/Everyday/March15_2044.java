@@ -10,7 +10,7 @@ package Everyday;
 
 //位或 运算符 ‘|’
 
-public class Match15_2044 {
+public class March15_2044 {
     public int countMaxOrSubsets(int[] nums) {
         int n = nums.length, max = 0, res = 0;
         int mask = 1 << n;
@@ -32,7 +32,7 @@ public class Match15_2044 {
 
     public static void main(String[] args) {
         int[] nums = {3,2,1,5};
-        Match15_2044 test = new Match15_2044();
+        March15_2044 test = new March15_2044();
         int res = test.countMaxOrSubsets(nums);
         System.out.println(res);
     }

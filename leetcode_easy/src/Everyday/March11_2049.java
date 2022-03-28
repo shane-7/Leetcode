@@ -7,7 +7,7 @@ import java.util.List;
  * @author shkstart
  * @create 2022-03-11 0:02
  */
-public class Match11_2049 {
+public class March11_2049 {
     long maxScore = 0;
     int cnt = 0;
     int n;
@@ -55,7 +55,7 @@ public class Match11_2049 {
     public static void main(String[] args) {
         int[] parents = new int[]{-1,2,0,2,0};
 
-        Match11_2049 test = new Match11_2049();
+        March11_2049 test = new March11_2049();
         int res = test.countHighestScoreNodes(parents);
         System.out.println(res);
     }

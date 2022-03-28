@@ -10,7 +10,7 @@ import java.util.Set;
  * @author shkstart
  * @create 2022-03-17 8:14
  */
-public class Match17_720 {
+public class March17_720 {
     public String longestWord(String[] words){
         String ans = "";
         Set<String> set = new HashSet<>();
@@ -34,7 +34,7 @@ public class Match17_720 {
 
     public static void main(String[] args) {
         String[] words = {"w","wo","wor","worl", "world"};
-        Match17_720 test = new Match17_720();
+        March17_720 test = new March17_720();
         String s = test.longestWord(words);
         System.out.println(s);
     }

@@ -14,7 +14,7 @@ import java.util.List;
  */
 
 //递归法
-//public class Match10_589 {
+//public class March10_589 {
 //    public List<Integer> preorder(Node root) {
 //        List<Integer> result = new ArrayList<>();
 //        preorder1(root, result);
@@ -31,7 +31,7 @@ import java.util.List;
 //}
 
 //迭代法
-public class Match10_589 {
+public class March10_589 {
     public List<Integer> preorder(Node root) {
         List<Integer> res = new ArrayList<>();
         if(root == null) return null;

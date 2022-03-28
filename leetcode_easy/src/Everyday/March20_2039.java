@@ -15,7 +15,7 @@ import java.util.*;
     idx 是用来对边进行编号的
  */
 
-public class Match20_2039 {
+public class March20_2039 {
     public int networkBecomesIdle(int[][] edges, int[] patience) {
         // 算出每个服务器到主服务器的距离
         // 根据patience time 计算它重发了多少次数据
@@ -79,7 +79,7 @@ public class Match20_2039 {
         int[][] edges = {{0,1},{1,2}};
         int[] patience = {0,2,1};
 
-        Match20_2039 test = new Match20_2039();
+        March20_2039 test = new March20_2039();
         int res = test.networkBecomesIdle(edges, patience);
         System.out.println(res);
 
