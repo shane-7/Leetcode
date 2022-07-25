@@ -16,6 +16,7 @@ public class BT1_二叉树中序遍历 {
         ArrayList<Integer> result = new ArrayList<>();
         inorder(root, result);
         return result;
+
     }
     public void inorder(TreeNode root, ArrayList<Integer> result){
         if(root == null){
@@ -41,12 +42,13 @@ public class BT1_二叉树中序遍历 {
                 deque.addLast(cur);
                 cur = cur.left;
             }else{
-                cur = deque.pop();
+                cur = deque.pollFirst();
                 res.add(cur.val);
                 cur = cur.right;
             }
         }
         return res;
+
     }
 
 
